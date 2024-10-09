@@ -20,7 +20,7 @@ export const initiHeuristicCost = (grid: GridType, endTile: TileType) => {
     return heuristicCost;
 };
 
-export const initiHeuristicCost = () => {
+export const initFunctionCost = () => {
     const functionCost = []
     for (let i=0; i<MAX_ROWS; i++) {
         const row = [];
